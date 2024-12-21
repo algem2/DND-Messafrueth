@@ -1,0 +1,106 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  /* Header Styles */
+  .header {
+    background-color: #3a3a3a;
+    color: #fff;
+    padding: 1rem 2rem;
+  }
+  
+  .title {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  .navList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .navItem {
+    margin-right: 1rem;
+  }
+  
+  .navLink {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navLink:hover {
+    text-decoration: underline;
+  }
+  
+  /* Section Styles */
+  .primordialElf {
+    padding: 2rem;
+    background-color: #fff;
+    margin: 1rem auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+  }
+  
+  .primordialElf h2 {
+    color: #3a3a3a;
+    margin-bottom: 1rem;
+  }
+  
+  .primordialElf p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  .traitList,
+  .featureList,
+  .featList {
+    list-style-type: square;
+    padding-left: 1.5rem;
+  }
+  
+  .traitItem,
+  .featureItem,
+  .featItem {
+    margin-bottom: 0.5rem;
+  }
+  
+  .traitItem strong,
+  .featureItem strong,
+  .featItem strong {
+    color: #3a3a3a;
+  }
+  
+  /* Sub-lists for Ethereal Surge */
+  .subList {
+    list-style-type: circle;
+    padding-left: 2rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .header {
+      padding: 1rem;
+      text-align: center;
+    }
+  
+    .navList {
+      flex-direction: column;
+    }
+  
+    .navItem {
+      margin: 0.5rem 0;
+    }
+  
+    .primordialElf {
+      padding: 1rem;
+    }
+  }
+  

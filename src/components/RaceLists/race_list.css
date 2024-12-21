@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  .container {
+    margin: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .race-category {
+    margin: 20px 0;
+  }
+  
+  .race-category ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .race-category li {
+    background-color: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .race-category li:hover {
+    background-color: #eee;
+  }
+  
